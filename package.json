@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/http-server/bin/http-server",
-    "prestart": "npm install",
     "postinstall": "bower install"
   },
   "author": "",
