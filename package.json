@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/http-server/bin/http-server",
-    "postinstall": "bower install"
+    
   },
   "author": "",
   "license": "ISC",
