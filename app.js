@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
 
     var WorkoutLog = (function($, undefined) {
           var API_BASE =  "https://bigbadworkout-api2018.herokuapp.com/";
