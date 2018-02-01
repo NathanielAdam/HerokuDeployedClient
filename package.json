@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/http-server/bin/http-server"
+    "start": "node ./node_modules/http-server/bin/http-server",
+    "postinstall": "bower install"
   },
   "author": "NathanielAdam",
   "license": "ISC",
