@@ -6,7 +6,7 @@ $(function() {
              var user = {user:  {username: username, password: password }};
              var signup = $.ajax({
                 type: "POST", 
-                url: WorkoutLog.API_BASE + "/api/user", 
+                url: WorkoutLog.API_BASE + "/api/login", 
                 data: JSON.stringify(user), 
                 contentType: "application/json"
              });
