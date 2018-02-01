@@ -4,18 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/http-server/bin/http-server",
-    "postinstall": "bower install"
+    "start": "node ./node_modules/http-server/bin/http-server"
   },
   "author": "NathanielAdam",
   "license": "ISC",
   "devDependencies": {
-    "bower": "^1.7.9",
+    "bower": "^1.8.2",
+    "gulp": "^3.9.1",
     "http-server": "^0.11.1"
   },
   "dependencies": {
     "dotenv": "^5.0.0",
-    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^2.1.2",
     "http-server": "^0.9.0"
